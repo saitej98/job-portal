@@ -1,11 +1,11 @@
 const express = require("express");
 const passport = require("passport");
 const jwt = require("jsonwebtoken");
-const authKeys = require("../Server/lib/authKeys");
+const authKeys = require("../lib/authKeys");
 
-const User = require("../Server/database/User");
-const JobApplicant = require("../Server/database/JobApplicant");
-const Recruiter = require("../Server/database/Recruiter");
+const User = require("../database/User");
+const JobApplicant = require("../database/JobApplicant");
+const Recruiter = require("../database/Recruiter");
 
 const router = express.Router();
 
