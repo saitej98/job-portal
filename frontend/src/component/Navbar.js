@@ -29,7 +29,7 @@ const Navbar = (props) => {
   return (
     <AppBar position="fixed" background= "transparent">
       <Toolbar style={{minHeight: "80px"}}>
-        <Typography variant="h6" className={classes.title} style={{fontSize: "32px",fontWeight: "800",}} onClick={() => handleClick("/home")}>
+        <Typography variant="h6" className={classes.title} style={{fontSize: "32px",fontWeight: "800",}} onClick={() => handleClick("/")}>
         <img src="https://cdn1.vectorstock.com/i/1000x1000/74/45/job-portal-lettering-logo-design-template-concept-vector-37017445.jpg" width="30px" height="auto"></img><span style={{cursor:"pointer"}}>JOB PORTAL</span>
         </Typography>
         <div style={{marginTop:"20px"}}>
